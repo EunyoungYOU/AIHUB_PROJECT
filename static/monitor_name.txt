@@ -1,3 +1,0 @@
-monitor_0,2F Cinema Room
-monitor_1,2F Idea Lab
-monitor_2,2F Self Studio
