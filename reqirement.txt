@@ -1,0 +1,14 @@
+python3
+torch
+argparse
+os
+sys
+pathlib
+cv2
+numpy
+requests
+flask
+json
+logging
+pywebpush
+time
