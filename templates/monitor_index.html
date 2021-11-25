@@ -1,0 +1,70 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+        
+        <style>
+            @font-face {
+                font-family: 'OTWelcomeBA';
+                src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2110@1.0/OTWelcomeBA.woff2') format('woff2');
+                font-weight: normal;
+                font-style: normal;
+            }
+            @font-face {
+                font-family: 'OTWelcomeRA';
+                src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2110@1.0/OTWelcomeRA.woff2') format('woff2');
+                font-weight: normal;
+                font-style: normal;
+            }
+            h1, h2, h3{
+                font-family: 'OTWelcomeRA';
+                display: block;
+                margin-top: 20px;
+                margin-bottom: 20px;
+                text-align: center;
+            }
+            video, image {
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+
+                width:100%;
+                max-width:1000px;
+                height:auto;
+            }
+        </style>
+
+        <title>MONITOR WEB</title>
+    </head>
+
+    <body>
+        <h1>Fire Detector</h1>
+        <h2>WEB VIEWER</h2>
+
+        <form>
+            {% if image_file %}
+                <img src= "{{ image_file }}">
+            {% endif %}
+
+            {% if video_file %}
+                <video controls autoplay muted>
+                    <source src= "{{ video_file }}" type="video/mp4"> 
+                </video>
+            {% endif %}
+            
+            {% if monitor %}
+                <h3>monitor_location: {{monitor}}</h3>
+            {% endif %}
+
+            {% if label %}
+                <h3 style = 'color:brown'>fire_location: {{label}}</h3>
+            {% endif %}
+            
+            {% if alert_message %}
+                <h3>{{alert_message}}</h3>                    
+            {% endif %}
+
+        </form>
+    </body>
+</html>
