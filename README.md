@@ -22,4 +22,4 @@ bash 03. conda activate lib. 설치된 env. [모니터링 (관리자용)]
 cd ./yolo_service
 python detect.py --weights ./weight/last.pt (weight file path) --source ./monitor_1.mp4 (input source file path) 
 
-http://161.122.53.222:8080/ #모니터링 web page 열면, 위 두 client에 알람 및 화재 위치 전송
+http://[local ip address]:8080/ #모니터링 web page 열면, 위 두 client에 알람 및 화재 위치 전송
