@@ -23,3 +23,6 @@ cd ./yolo_service
 python detect.py --weights ./weight/last.pt (weight file path) --source ./monitor_1.mp4 (input source file path) 
 
 http://[local ip address]:8080/ #모니터링 web page 열면, 위 두 client에 알람 및 화재 위치 전송
+
+$$ 일부 파일 용량이 커서 git에 업로드 하지 못함. 모든 소스는 아래 google drive에서 download 가능
+https://drive.google.com/drive/folders/1vu1rYWzuZlnTgJg0S2KrmK8vOeuFCExl?usp=sharing
