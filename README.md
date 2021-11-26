@@ -22,7 +22,7 @@ http://127.0.0.1:9060/fire > /end #탈출 완료 btn 누르면 detect server에 
 cd ./yolo_service <br>
 python detect.py --weights ./weight/last.pt (weight file path) --source ./monitor_1.mp4 (input source file path) <br>
 
-http://[local ip address]:8080/ #모니터링 web page 열면, 위 두 client에 알람 및 화재 위치 전송 <br>
+http://[local ip address]:8080/ #모니터링 web page 열면, 위 두 client에 알람 및 화재 위치 전송 <br><br>
 
 
 <h2>확인 바랍니다.</h2>
