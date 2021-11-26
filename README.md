@@ -25,8 +25,9 @@ python detect.py --weights ./weight/last.pt (weight file path) --source ./monito
 http://[local ip address]:8080/ #모니터링 web page 열면, 위 두 client에 알람 및 화재 위치 전송 <br>
 
 
-$$ 일부 파일 용량이 커서 git에 업로드 하지 못함. 모든 소스는 아래 google drive에서 download 가능 <br>
-$$ 상황 발생 가정 시연 영상과 라이브 시연 영상 또한 아래 google drive에서 확인 가능 <br>
+<h2>확인 바랍니다.</h2>
+$$ 일부 파일의 용량이 커서 git에 업로드 하지 못해, 소스를 아래 google drive에 저장해두었습니다.<br>
+$$ 상황 발생 가정 시연 영상과 라이브 시연 영상 또한 아래 google drive에서도 확인 가능합니다. <br>
 https://drive.google.com/drive/folders/1vu1rYWzuZlnTgJg0S2KrmK8vOeuFCExl?usp=sharing <br>
 
 
